@@ -1,0 +1,235 @@
+html {
+	height: 100%;
+	max-height: 100%;
+	font-size: 0.75em;
+	font-family: verdana, arial, sans-serif;
+}
+
+body {
+	background-color: #fff;
+	color: #323A5D;
+}
+
+/* Main Elements */
+#content {
+	background-color: white;
+	padding: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#foot {
+	background-color: white;
+	padding: 5px;
+	padding-top: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#footc {
+	margin-bottom: 0px;
+	padding: 0px 0px;
+	height: 68px;
+}
+
+.paddiv1, .paddiv2 {
+	height: 0px;
+}
+
+#nextstep {
+	font-weight: bold;
+	height: 22px;
+	font-size: 1.1em;
+}
+
+#nextstepc {
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.popupMsg {
+	display: none;
+	border: 1px solid #666;
+	background-color: #eee;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 6px;
+}
+
+.popupMsgOPP {
+	position: relative; 
+	top: -155px; 
+	margin-left: 0px;
+	z-index: 10;
+}
+
+/* Common HTML Elements in #content */
+
+#content p,#content ul,#content pre {
+	padding: 5px;
+}
+
+#content h2 {
+	padding-top: 6px;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.8em;
+}
+
+#content h3 {
+	margin-left: 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#content pre {
+	font-family: courier, monospace;
+	font-size: 1em;
+}
+
+.pmmdetails {
+	padding-left: 80px;
+}
+
+/* Table */
+table.basetable {
+	margin-left: 5px;
+}
+
+table.basetable td {
+	padding-bottom: 0.6em;
+	padding-right: 0.6em;
+}
+
+/* Order Data Layout */
+table.od {
+	margin: 10px 0px 10px 0px;
+}
+
+table.od td, table.od th  {
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+table.od th {
+	font-weight: bold;;
+}
+
+/* Image Buttons (Payment Methods) */
+
+.imgB, .footerB {
+	width: 158px;
+	height: 32px;
+	padding: 0;
+	border: 0;
+	background: transparent url("../img/bg_buttons.png") no-repeat left 0px;
+	overflow: hidden;
+	color: #444;
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.imgB:hover, .imgB:active, .footerB:hover, .footerB:active {
+	color: #8294c0;
+}
+
+.pmB {
+	width: 350px;
+	height: 42px;
+	padding-left: 85px;
+	text-align: left;
+	margin-bottom: 6px;
+	font-size: 1.1em;
+	background-color: transparent !important;
+}
+
+/* Image Buttons Footer (next/previous/pay) */
+
+#footerb1div {
+	float: left;
+	text-align: left;
+	margin: 8px 0px 0px 30px;
+}
+
+#footerb2div {
+	float: right;
+	text-align: right;
+	margin: 8px 30px 0px 0px;
+}
+
+.cancelB {
+	background-position: left 0px;
+}
+
+.nextB {
+	background-position: right -32px;
+}
+
+.backB {
+	background-position: left -96px;
+}
+
+.finishB {
+	background-position: right -64px;
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: #323A5D;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #323A5D;
+}
+
+/* Form elements */
+
+input,select {
+	font-size: 0.95em;
+	padding: 1px;
+	border: 1px solid #C3C3C3;
+	border-top-color: #7C7C7C;
+	border-bottom-color: #DDD;
+	background: url("../img/input_bg.png") 0 0 repeat-x;
+}
+
+button:focus {
+	outline: none;
+}
+
+/* Validation */
+
+table.basetable .inputField {
+	padding: 1px 2px 2px 2px;
+	background-color: #EAF5FA;
+}
+
+table.basetable .errorField {
+	border: 2px solid #f33;
+	background-color: #fff3f3;
+	padding: 1px 1px 1px 1px;
+}
+
+.fieldDiv {
+	padding-right: 20px;
+	background: transparent;
+}
+
+.errorDiv {
+	background: transparent url("/hpp/img/icons/error.png") no-repeat right 3px;
+	padding-right: 20px;
+}
+
+.errorFrame {
+	background-color: #fff3f3;
+}
