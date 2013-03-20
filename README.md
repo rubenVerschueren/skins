@@ -1,4 +1,8 @@
 skins
 =====
 
-Example skins, as well as skin tips, code snipplets and other stuff
+In this folder you will find:
+
+* Example skins
+* Code snippets
+* Alternative image sets for payment method logos
