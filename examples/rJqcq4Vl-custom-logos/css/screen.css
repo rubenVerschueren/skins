@@ -173,6 +173,28 @@ table.od th {
 	background-color: transparent !important;
 }
 
+.pmBcard { background-image: url(../img/pm-cards01.png) !important; }
+.pmBamex { background-image: url(../img/pm-amex.png) !important; }
+.pmBdiners { background-image: url(../img/pm-dinersclub.png) !important; }
+.pmBdiscover { background-image: url(../img/pm-discover.png) !important; }
+.pmBideal { background-image: url(../img/pm-ideal.png) !important; }
+.pmBjcb { background-image: url(../img/pm-jcb.png) !important; }
+.pmBmaestro { background-image: url(../img/pm-maestro.png) !important; }
+.pmBmc { background-image: url(../img/pm-mastercard.png) !important; }
+.pmBunionpay { background-image: url(../img/pm-unionpay.png) !important; }
+.pmBvisa { background-image: url(../img/pm-visa.png) !important; }
+
+.idealButton[value="1121"] { background-image: url(../img/ideal-RABOBANK-gloss.png) !important; }
+.idealButton[value="1152"] { background-image: url(../img/ideal-ABNAMRO-gloss.png) !important; }
+.idealButton[value="1157"] { background-image: url(../img/ideal-FRIESLANDBANK-gloss.png) !important; }
+.idealButton[value="0721"] { background-image: url(../img/ideal-ING-gloss.png) !important; }
+.idealButton[value="0751"] { background-image: url(../img/ideal-SNSBANK-gloss.png) !important; }
+.idealButton[value="0161"] { background-image: url(../img/ideal-VANLANSCHOT-gloss.png) !important; }
+.idealButton[value="0511"] { background-image: url(../img/ideal-TRIODOSBANK-gloss.png) !important; }
+.idealButton[value="0761"] { background-image: url(../img/ideal-ASNBANK-gloss.png) !important; }
+.idealButton[value="0771"] { background-image: url(../img/ideal-REGIOBANK-gloss.png) !important; }
+.idealButton[value="0801"] { background-image: url(../img/ideal-KNAB-gloss.png) !important; }
+
 /* Image Buttons Footer (next/previous/pay) */
 
 #footerb1div {
