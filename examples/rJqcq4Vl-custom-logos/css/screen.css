@@ -184,9 +184,9 @@ table.od th {
 .pmBunionpay { background-image: url(../img/pm-unionpay.png) !important; }
 .pmBvisa { background-image: url(../img/pm-visa.png) !important; }
 
-.idealButton[value="1121"] { background-image: url(../img/ideal-RABOBANK-gloss.png) !important; }
-.idealButton[value="1152"] { background-image: url(../img/ideal-ABNAMRO-gloss.png) !important; }
-.idealButton[value="1157"] { background-image: url(../img/ideal-FRIESLANDBANK-gloss.png) !important; }
+.idealButton[value="0021"] { background-image: url(../img/ideal-RABOBANK-gloss.png) !important; }
+.idealButton[value="0031"] { background-image: url(../img/ideal-ABNAMRO-gloss.png) !important; }
+.idealButton[value="0091"] { background-image: url(../img/ideal-FRIESLANDBANK-gloss.png) !important; }
 .idealButton[value="0721"] { background-image: url(../img/ideal-ING-gloss.png) !important; }
 .idealButton[value="0751"] { background-image: url(../img/ideal-SNSBANK-gloss.png) !important; }
 .idealButton[value="0161"] { background-image: url(../img/ideal-VANLANSCHOT-gloss.png) !important; }
