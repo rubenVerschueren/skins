@@ -1,0 +1,4 @@
+	</form>
+	<script src="/sf/kTcgNKNd/js/jquery.min.js"></script>
+	<script src="/sf/kTcgNKNd/js/translate.js"></script>
+	<!-- ### inc/cfooter_[locale].txt or inc/cfooter.txt (fallback) ### -->

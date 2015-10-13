@@ -1,0 +1,5 @@
+<form id="pageform" action="" method="post">
+	<div class="padDiv1"></div>
+	<div id="translateId">translate me</div>
+	<div class="translateClass">translate me too</div>
+	

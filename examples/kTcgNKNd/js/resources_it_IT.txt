@@ -1,0 +1,4 @@
+﻿{
+    "#translateId": "Italian text 1 ",
+	".translateClass" : "Italian text 2"	
+}
